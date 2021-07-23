@@ -19,3 +19,7 @@
     border-color: #641e03;
   }
  
+.form Input{
+  background-color: rgba(0, 0, 0, 0.201);
+  color: salmon;
+}

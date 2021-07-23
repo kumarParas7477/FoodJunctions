@@ -1,14 +1,18 @@
 .meals {
-    max-width: 60rem;
-    width: 90%;
+    width: 60rem;
     margin: 2rem auto;
-    animation: meals-appear 300ms ease-out forwards;
+    animation: meals-appear 600ms ease-out forwards;
+   color: lightsalmon;
   }
+
+
   
   .meals ul {
     list-style: none;
     margin: 0;
     padding: 0;
+
+   
   }
   
   @keyframes meals-appear {
