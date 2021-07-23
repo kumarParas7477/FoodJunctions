@@ -11,6 +11,7 @@
     border-radius: 25px;
     font-weight: bold;
     position: relative;
+    float: right;
     
   }
 
@@ -84,4 +85,12 @@
     100% {
       transform: scale(1);
     }
+  }
+
+  @media (max-width : 550px) {
+.button{
+  width: fit-content;
+  padding: 0.23rem 1rem;
+}
+    
   }

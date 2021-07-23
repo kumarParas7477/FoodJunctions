@@ -1,5 +1,6 @@
 import { Fragment, useState } from 'react';
 import Cart from './Components/Cart/Cart';
+import Footer from './Components/Layout/Footer';
 import Header from './Components/Layout/Header';
 import Meals from './Components/Meals/Meals';
 import CartProvider from './Components/Store/CardProvider';
@@ -26,9 +27,12 @@ function App() {
     <CartProvider >
       {cartIsShown && <Cart onClose={showHideCartHandler} />}
       <Header onShowHideCart={showHideCartHandler}></Header>
-      <main>
+      <main >
         <Meals />
       </main>
+      <footer>
+      <Footer />
+      </footer>
     </CartProvider>
   );
 }
