@@ -38,11 +38,11 @@
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .actions {
     flex-direction: row;
   }
-}
+} */
 
 .cart-item button {
   font: inherit;
@@ -63,4 +63,37 @@
 .cart-item button:active {
   background-color: #8a2b06;
   color: white;
+}
+
+
+@media (max-width : 550px) {
+  .cart-item {
+    border-bottom: 1px solid #8a2b06;
+    padding: 0.3rem 0;
+    margin: 0.5rem 0;
+    font-size: small;
+  }
+
+  .cart-item h2 {
+    margin: 0 0 0.2rem 0;
+  }
+
+  .summary {
+    width: 6rem;
+  }
+
+  .amount {
+    border: 0.6px solid #ccc;
+    padding: 0.1rem 0.45rem;
+    border-radius: 4px;
+  }
+
+  .cart-item button {
+     font-size: 0.8rem;
+    width: 2rem;
+    border-radius: 4px;
+    margin-left: 0.6rem;
+    margin: 0.15rem; 
+  }
+  
 }

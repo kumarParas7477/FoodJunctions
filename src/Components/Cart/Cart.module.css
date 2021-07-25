@@ -50,3 +50,19 @@
     font-style: oblique;
     font-weight: bold;
   }
+
+  @media (max-width : 550px) {
+    .cart-items {  
+      max-height: 120rem;
+    }
+    .total {
+      font-size: 1rem;
+      margin: 0.7rem 0;
+    }
+    
+  .actions button {
+    border: 0.5px solid #8a2b06;
+    padding: 0.2rem 1rem;
+    margin-left: 0.6rem;
+  }
+  }
