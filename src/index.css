@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0;
-  background: url("./assets//mealsParantha.jpg") no-repeat center center fixed; 
+  background: url("./assets//mealsParantha.jpg") no-repeat  center fixed; 
 
   -webkit-background-size: cover;
   -moz-background-size: cover;

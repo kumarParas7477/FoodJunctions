@@ -20,6 +20,8 @@
     .summary{
       width: 90%;
      padding: 0.2rem;
-     font-size: 12px;
+    }
+    .summary h2{
+      font-size: 12px;
     }
   }
