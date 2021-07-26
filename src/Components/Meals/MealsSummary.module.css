@@ -16,7 +16,7 @@
     margin-top: 0;
   }
 
-  @media only screen and  (max-width : 550px){
+  @media only screen and  (max-width : 595px){
     .summary{
       width: 90%;
      padding: 0.2rem;

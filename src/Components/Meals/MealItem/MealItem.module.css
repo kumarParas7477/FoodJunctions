@@ -21,7 +21,7 @@
     font-size: 1.25rem;
   }
 
-  @media (max-width : 550px) {
+  @media only screen and  (max-width : 595px) {
     .price {
       margin-top: 0.15rem;
       font-size: 0.8rem;

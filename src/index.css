@@ -11,7 +11,6 @@ html {
 body {
   margin: 0;
   background: url("./assets//mealsParantha.jpg") no-repeat  center fixed; 
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,7 +20,7 @@ body {
 }
 
 
-@media   (max-width : 550px) {
+@media only screen and  (max-width : 595px) {
 
   body{
     font-size: 10px;

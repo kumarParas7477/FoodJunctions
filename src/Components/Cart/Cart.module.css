@@ -51,7 +51,7 @@
     font-weight: bold;
   }
 
-  @media (max-width : 550px) {
+  @media only screen and  (max-width : 595px) {
     .cart-items {  
       max-height: 120rem;
     }
